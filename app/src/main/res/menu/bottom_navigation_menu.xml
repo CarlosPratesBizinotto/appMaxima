@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/dados_clientes"
+        android:enabled="true"
+        android:icon="@drawable/ic_maxima_pessoa_ativo"
+        android:title="@string/dados" />
+
+    <item
+        android:id="@+id/pedidos"
+        android:enabled="true"
+        android:icon="@drawable/ic_maxima_historico_pedidos_ativo"
+        android:title="@string/pedidos" />
+
+    <item
+        android:id="@+id/alvara"
+        android:enabled="true"
+        android:icon="@drawable/ic_maxima_alvara_ativo"
+        android:title="@string/alvara" />
+
+</menu>

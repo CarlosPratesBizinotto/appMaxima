@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dataClientFragment">
+
+    <fragment
+        android:id="@+id/dataClientFragment"
+        android:name="com.example.appmaxima.presentation.ui.fragment.DataClientFragment"
+        android:label="fragment_data_client"
+        tools:layout="@layout/fragment_data_client" />
+    <fragment
+        android:id="@+id/pedidoFragment"
+        android:name="com.example.appmaxima.presentation.ui.fragment.PedidoFragment"
+        android:label="fragment_pedido"
+        tools:layout="@layout/fragment_pedido" />
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.example.appmaxima.presentation.ui.fragment.AlvaraFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_alvara" />
+</navigation>
